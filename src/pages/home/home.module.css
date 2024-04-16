@@ -1,0 +1,41 @@
+.homecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-color: lightgreen;
+}
+
+.homecontent {
+  /* border: 0.5px solid; */
+  border-radius: 5px;
+  /* background-color: white; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.btncontainer {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.createuserformcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.commoncreateuserinput {
+  padding: 9px;
+}
+
+.userDetailBox {
+  margin-bottom: 10px;
+  padding: 5px;
+}

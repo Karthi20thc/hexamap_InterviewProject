@@ -1,0 +1,26 @@
+.loginmaincontainer {
+  background-color: lightblue;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginFormcontainer {
+  padding: 10px;
+  border: 0.5px solid;
+  border-radius: 5px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.commoninput {
+  width: 90%;
+  padding: 10px;
+}
